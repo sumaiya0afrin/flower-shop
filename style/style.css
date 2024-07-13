@@ -118,3 +118,29 @@ body{
     height: 100%;
 }
 /* feature end  */
+
+/* facilaty start  */
+.facilaties{
+    width: 1440px;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:  0 auto;
+    background-color: rgba(39, 39, 39, 0.05);
+    margin-bottom: 128px;
+}
+.facility_content{
+    width: 372px;
+    height: 147px;
+    text-align: center;
+}
+.facility_content p{
+    color: rgba(39, 39, 39, 0.8);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 35px;
+    margin-top: 10px;
+
+}
+/* facilaty end */
