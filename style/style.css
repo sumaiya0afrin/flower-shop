@@ -1,0 +1,120 @@
+/* font style  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+}
+.banner-container{
+    /* max-width: 1366px; */
+    height: 700px;
+    /* border: 1px solid blue; */
+    background: rgba(229, 84, 115, 0.1);
+}
+.banner_content{
+    display: flex;
+    /* border: 1px solid tomato; */
+    width: 90%;
+    margin: 0 auto;
+}
+.banner_text{
+    width: 50%;
+    height: 700px;
+    /* border: 1px solid gold; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner_text h1{
+    color: rgb(39, 39, 39);
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 68px;
+}
+.banner_text p{
+    /* width: 634px; */
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 22px 0;
+    margin-left: 130px;
+}
+.banner_btn button{
+    border-radius: 8px;
+    padding: 20px 43px 20px 43px;
+    background: rgb(229, 84, 115);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    border: none;
+    margin-right: 330px;
+}
+.banner_img{
+    width: 50%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.banner_img img{
+    width: 50%;
+    height: 100%;
+}
+
+/* feature start  */
+.feature{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 170px 0 120px 0;
+}
+.f_text h3{
+    color: rgb(39, 39, 39);
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    text-align: center;
+}
+.f_text p{
+    width: 594px;
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+.card{
+    width: 1440px;
+    height: 605px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+.card_box{
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.card_img{
+    width: 310px;
+    height: 428px;
+}
+.card_img img{
+    width: 100%;
+    height: 100%;
+}
+/* feature end  */
